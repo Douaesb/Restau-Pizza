@@ -37,7 +37,7 @@
    float: left;
    position: relative;
    margin-top: 250px;
-   margin-left: 200px; 
+   /* margin-left: 200px;  */
 }
 
 .cont{
@@ -74,7 +74,7 @@ hr{
       margin-top: 30px;
       margin-left: 150px;
 }
-.conta button a{
+.conta a button{
     color: #F2C94C;   
     font-size: 20px;
     font-family: "ruda";
@@ -95,20 +95,19 @@ hr{
  }
 
 .titrem{
-    margin-left: 200px;
+    margin-left: 25%;
 }
-
-.titrem h1{
+.titrem h2{
     text-align: center;
     font-size: 50px;
     width: 300px;
-    margin-bottom: 20px;
-    margin-left: 200px;
+
 }
+
 .titrem hr{
     border-bottom: 7px solid #F2C94C;
     width: 400px; 
-    margin-left: 150px;
+    margin-left: 35px;
     margin-bottom: 40px;
 
 }
@@ -133,7 +132,7 @@ hr{
     margin-top: 30px;
     margin-left: 150px;
  }
-.parm button a{
+.parm a button{
     color: #F2C94C;   
     font-size: 35px;
     font-family: "ruda";
@@ -217,12 +216,11 @@ hr{
 .titrea h1{
     font-size: 50px;
     width: 400px;
-    margin-left: 80px;
     margin-bottom: 15px;
 }
 .titrea hr{
     border-bottom: 7px solid #F2C94C;
-    width: 550px; 
+    width: 500px; 
     text-align: center;
 }
 
@@ -236,8 +234,9 @@ hr{
  .bv{
     margin: 100px auto;
 }
-.bv h2{
+.bv h3{
     text-align: center;
+    font-size: 35px;
 }
 
 .imga img{
@@ -247,6 +246,25 @@ hr{
     height: 210px;
 }
 /* section histoire  */
+.titrea1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+ }
+
+.titrea1 h2{
+    font-size: 50px;
+    width: 400px;
+    margin-bottom: 15px;
+    margin-right: 8%;
+}
+.titrea1 hr{
+    border-bottom: 7px solid #F2C94C;
+    width: 500px; 
+    text-align: center;
+}
+
 .parm2 {
     width: 85%;
     text-align: center;
@@ -279,11 +297,11 @@ hr{
     margin: 80px auto;
 }
 
-.titrec h1{
+.titrec h1,h2{
     text-align: center;
     font-size: 50px;
     width: 400px; 
-    margin-left: 6%;
+    margin-left: 7%;
 }
 .titrec hr{
     border-bottom: 5px solid #F2C94C;
@@ -373,10 +391,17 @@ span{
 }
 
 
-.contf h1{
+.contf h2{
     font-family: "quattrocento";
     text-align: center;
 }
+
+.contf hr{
+    border-bottom: 5px solid #F2C94C;
+    text-align: center;
+    margin-left: 8%;
+    width: 100%;
+} 
 
 .logos{
    display:flex;
