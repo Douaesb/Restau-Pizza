@@ -65,21 +65,24 @@ hr{
 
 }
 
-.conta button{
+.btnb{
    border-radius: 40px;
    padding: 2.5%;
-   border-color: #F2C94C;
+   border: 3px solid #F2C94C;
    background: rgba(255, 255, 255, 0.1); 
-      /* background: transparent; */
-      margin-top: 30px;
-      margin-left: 150px;
+    margin-left: 150px;
+
 }
-.conta a button{
+.conta a{
     color: #F2C94C;   
     font-size: 20px;
     font-family: "ruda";
     letter-spacing: 2px;
  }
+
+.bth{
+    margin-top: 50px;
+}
 /* section menu  */
 .menu {
     width: 100%;
@@ -124,26 +127,31 @@ hr{
     margin-left: 150px;
 }
 
-.parm button{
+.btnm{
     padding: 2.5%;
-    border-color: #F2C94C;
+    border: 3px solid #F2C94C;
     border-width: 3px;
     background: transparent;
-    margin-top: 30px;
     margin-left: 150px;
  }
-.parm a button{
+ 
+.parm a{
     color: #F2C94C;   
     font-size: 35px;
     font-family: "ruda";
     letter-spacing: 2px;
  }
 
+ .mn{
+    margin-top: 80px;
+ }
  .imgm{
     display: flex;
     justify-content: space-around;
-    margin : 50px 350px auto 0;
+    margin : 100px 350px auto 0;
  }
+
+
 
 /* menu page a */
 /* section menu */
